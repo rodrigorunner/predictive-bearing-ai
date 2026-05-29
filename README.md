@@ -1,69 +1,68 @@
 # Predictive Maintenance AI - Neural Network for Bearing Analysis
 
-Projeto desenvolvido em Python utilizando NumPy para simular uma análise preditiva aplicada à manutenção industrial.
+Project developed in Python using NumPy to simulate predictive analysis applied to industrial maintenance.
 
-A proposta do projeto é utilizar uma rede neural simples para analisar condições operacionais de um rolamento através de três grandezas principais:
+The purpose of this project is to use a simple neural network to analyze bearing operating conditions through three main variables:
 
 * RPM
-* Temperatura
-* Vibração
+* Temperature
+* Vibration
 
-Os dados são normalizados entre 0.0 e 1.0 para facilitar o treinamento da rede neural.
+The data is normalized between 0.0 and 1.0 to facilitate neural network training.
 
-## Objetivo
+## Objective
 
-Simular o comportamento de um sistema inteligente capaz de identificar níveis de severidade operacional com base nos sinais coletados dos sensores instalados em equipamentos rotativos.
+Simulate the behavior of an intelligent system capable of identifying operational severity levels based on signals collected from sensors installed on rotating equipment.
 
-A rede neural classifica os dados em três estados:
+The neural network classifies the data into three states:
 
 * NORMAL
-* ALERTA
-* CRÍTICO
+* WARNING
+* CRITICAL
 
-## Tecnologias utilizadas
+## Technologies Used
 
 * Python
 * NumPy
-* Redes Neurais
-* Machine Learning básico
-* Função Sigmoid
+* Neural Networks
+* Basic Machine Learning
+* Sigmoid Function
 
-## Funcionamento
+## How It Works
 
-A rede neural recebe dados simulados de sensores industriais e realiza o treinamento ajustando automaticamente os pesos através do cálculo do erro.
+The neural network receives simulated data from industrial sensors and performs training by automatically adjusting weights through error calculation.
 
-As variáveis analisadas representam condições comuns monitoradas em manutenção preditiva industrial.
+The analyzed variables represent common conditions monitored in industrial predictive maintenance.
 
-## Conceitos aplicados
+## Applied Concepts
 
-* Normalização de dados
-* Treinamento supervisionado
-* Ajuste de pesos
-* Função de ativação sigmoid
-* Classificação de severidade
-* Simulação de manutenção preditiva
+* Data normalization
+* Supervised training
+* Weight adjustment
+* Sigmoid activation function
+* Severity classification
+* Predictive maintenance simulation
 
-## Aplicação industrial
+## Industrial Application
 
-O projeto foi inspirado em processos reais de análise preditiva utilizados na indústria para monitoramento de:
+This project was inspired by real predictive analysis processes used in industry for monitoring:
 
-* Rolamentos
-* Motores elétricos
-* Bombas
-* Mancais
-* Equipamentos rotativos
+* Bearings
+* Electric motors
+* Pumps
+* Bearing housings
+* Rotating equipment
 
-## Próximos passos
+## Next Steps
 
-* Adicionar mais sensores
-* Trabalhar com datasets maiores
-* Implementar gráficos
-* Criar dashboard de monitoramento
-* Utilizar TensorFlow ou PyTorch
-* Aplicar detecção de anomalias
-* Simular dados reais industriais
+* Add more sensors
+* Work with larger datasets
+* Implement charts and visualizations
+* Create a monitoring dashboard
+* Use TensorFlow or PyTorch
+* Apply anomaly detection
+* Simulate real industrial data
 
-## Autor
+## Author
 
 Rodrigo Regis
-
